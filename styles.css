@@ -5,6 +5,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+.BCPF{
+    background-color: white;
+    width: 100%;
+    margin: 20px;
+}
 .post{
     background-color: white;
     width: 30%;
