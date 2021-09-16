@@ -4,11 +4,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
+    margin: 0px;
 }
-.BCPF{
-    background-color: white;
+#BCPF{
     width: 100%;
-    margin: 20px;
+    background-color: white;
+    text-align: center;
+}
+.h1{
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    
 }
 .post{
     background-color: white;
