@@ -1,28 +1,45 @@
-body{
-    background-color: grey;
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(192, 182, 182);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
 }
-#BCPF{
-    width: 100%;
-    background-color: white;
-    text-align: center;
+#BCPF {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
 }
-.h1{
-    text-align: center;
-    width: 100%;
-    background-color: white;
-    
+#BCPF2 {
+  width: 30%;
+  align-self: flex-start;
+  padding: 0px 20px 0px; 
+  box-sizing: border-box;
+  font-weight: bolder;
 }
-.post{
-    background-color: white;
-    width: 30%;
-    margin: 20px;
+.postTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0px 20px 0px;
 }
-.postimage{
-    width: 100%;
+data {
+  color: #6c757d;
+  font-size: 2em;
+}
+.post {
+  background-color: white;
+  width: 30%;
+  margin: 20px;
+}
+.postImage {
+  width: 100%;
+}
+.postText{
+  padding: 0px 20px 0px;
 }
